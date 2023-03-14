@@ -8,17 +8,16 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app">
-      <img class="logo" src="/vite.svg" alt="vite logo">
-      <h1>Vite + Albio</h1>
-      <button on:click="handleClick">Count: {count}</button>
-    </div>
+    <button on:click="handleClick">{count % 2 === 0 ? "hi" : "bye"}</button>
+    {#each items as item}
+    <p>{item}</p>
+    {/each}
     <script>
       export let count = 0;
-
-      const handleClick = (e) => {
-        e.preventDefault();
+      export let items = [];
+      const handleClick = () => {
         count++;
+        items.push("Hello World");
       };
     </script>
   </body>
