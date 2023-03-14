@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  albio: ^1.0.52
+  albio: ^1.0.58
   vite: ^4.1.4
-  vite-plugin-albio: ^1.0.31
+  vite-plugin-albio: ^1.0.35
 
 devDependencies:
-  albio: 1.0.52
+  albio: 1.0.58
   vite: 4.1.4
-  vite-plugin-albio: 1.0.31_vite@4.1.4
+  vite-plugin-albio: 1.0.35_vite@4.1.4
 
 packages:
 
@@ -422,8 +422,8 @@ packages:
     hasBin: true
     dev: true
 
-  /albio/1.0.52:
-    resolution: {integrity: sha512-Vi+J7MO0K7zq0Cg+a2qdYDxZM++SJroX1k8ufhA1ZeJPSIKcJotSLOmHhqn1GU8lSRULm2N8pPHS1m/1BL1tqA==}
+  /albio/1.0.58:
+    resolution: {integrity: sha512-b3kppRIWFiKokgiV7tcgohtpWYwEeDoJEoTw/Xq/zbhWk6swusdKqf5MPTFtNafGbmdEPuSRbgMyzCbn2HkKCg==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -592,12 +592,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /vite-plugin-albio/1.0.31_vite@4.1.4:
-    resolution: {integrity: sha512-ijQZYagBJvISlNDVrSkHFMXYJHdB7pIZKjhrcxgOEymLq6JqPGCs12Qaaxw0SASjZLjj2chvpc/roKEN77iXfA==}
+  /vite-plugin-albio/1.0.35_vite@4.1.4:
+    resolution: {integrity: sha512-kpIoSuQ4avlNTJkk1If9zlm6MM5DluiGsQjw7gUIEeFmYsh4SUazniQNWqLfCc3EEuGOo5dfxLP5fwmiJ4osdg==}
     peerDependencies:
       vite: ^4.0.4
     dependencies:
-      albio: 1.0.52
+      albio: 1.0.58
       code-red: 1.0.0
       esbuild: 0.17.11
       vite: 4.1.4

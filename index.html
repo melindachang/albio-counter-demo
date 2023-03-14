@@ -11,13 +11,12 @@
     <div id="app">
       <img class="logo" src="/vite.svg" alt="vite logo">
       <h1>Vite + Albio</h1>
-      <button on:click="handleClick">Count: {count}</button>
+      <button @click="handleClick">Count: {count}</button>
     </div>
     <script>
       export let count = 0;
 
-      const handleClick = (e) => {
-        e.preventDefault();
+      function handleClick() {
         count++;
       };
     </script>
